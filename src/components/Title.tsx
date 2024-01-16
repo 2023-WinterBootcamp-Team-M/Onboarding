@@ -58,7 +58,29 @@ const Title = () => {
       <p className="text-4xl text-[#506B5D] w-1/3">Cliptab을 통해 GPT 기술을 활용한 스마트 북마킹과 URL 이미지 클립보드를 발견하세요.</p>
       <img src="https://mteam.my.canva.site/onboarding-web/images/854cdad2f7a848f38ee51e774a498f19.svg" alt="이미지6"/>
     </div>
-    
+    <div className="bg-[#A0B291] w-screen h-screen flex flex-row items-center justify-evenly">
+      <div className="flex flex-row w-1/4 flex-wrap">
+      <img 
+      className="w-1/2 pr-2"
+      src="https://mteam.my.canva.site/onboarding-web/images/1affd884274594118668c98edae5a5c3.svg" alt="이미지7"/>
+      <img 
+      className="w-1/2 pl-2"
+      src="https://mteam.my.canva.site/onboarding-web/images/71c1e8cda2aa1113773b51815634b4dd.svg" alt="이미지8"/>
+      <img 
+      className="w-full pt-4"
+      src="https://mteam.my.canva.site/onboarding-web/images/c2e5fa8d5a2a022625d71d5f86f04617.svg" alt="이미지9"/>
+      </div>
+      <div className="flex flex-col w-1/3">
+      <p className="text-white text-4xl pb-6">당신의 시간을 효율적으로 활용하세요.</p>
+      <p className="text-white text-md w-[80%]">Cliptab 서비스를 이용하면 언제 어디서나 손쉽게 관리할 수 있습니다.</p>
+      <p className="text-white text-md w-[80%]">필요한 순간에 빠르게 모든 작업을 수행하세요.</p>
+      </div>
+      </div>
+      <div className="bg-[#545454] flex flex-col h-screen w-screen items-center justify-evenly">
+        <div className="bg-white w-1/2 h-1/2 text-center">이미지</div>
+        <p className="text-white text-4xl">세계적인 관리 서비스, Cliptab</p>
+        <button className="bg-[#90ADCD] w-[20%] h-[6%] text-black rounded-md">START NOW</button>
+      </div>
     </div>
   );
 };

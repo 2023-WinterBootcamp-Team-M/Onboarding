@@ -54,6 +54,11 @@ const Title = () => {
       src="https://mteam.my.canva.site/onboarding-web/images/c643a70ca5befc44bd1d3bf8720ab2cb.svg" 
       alt="이미지5"/>
     </div>
+    <div className="bg-white w-screen h-screen flex flex-row items-center justify-evenly">
+      <p className="text-4xl text-[#506B5D] w-1/3">Cliptab을 통해 GPT 기술을 활용한 스마트 북마킹과 URL 이미지 클립보드를 발견하세요.</p>
+      <img src="https://mteam.my.canva.site/onboarding-web/images/854cdad2f7a848f38ee51e774a498f19.svg" alt="이미지6"/>
+    </div>
+    
     </div>
   );
 };

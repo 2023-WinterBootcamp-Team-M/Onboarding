@@ -1,11 +1,18 @@
-import React from "react";
+import React, { useEffect } from "react";
+import AOS from "aos";
+import 'aos/dist/aos.css';
 
 const Title = () => {
+  useEffect(() => {
+    AOS.init();
+  }, [])
   return (
     <div className="">
     <div className="bg-[#90adcd] w-screen h-screen flex flex-row items-center justify-evenly">
       <div className="flex flex-col items-start">
-      <span className=" text-[#0d3a5c] font-normal sm:text-4xl md:text-8xl">ClipTab</span>
+      <span 
+      data-aos="fade-up"
+      className=" text-[#0d3a5c] font-normal sm:text-4xl md:text-8xl">ClipTab</span>
       <span className="text-[#0d3a5c] self-end sm:text-xl md:text-lg">World Management</span>
       </div>
       <img 

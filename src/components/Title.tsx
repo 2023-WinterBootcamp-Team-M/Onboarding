@@ -3,15 +3,38 @@ import AOS from "aos";
 import 'aos/dist/aos.css';
 
 const Title = () => {
+
+  useEffect(() => {
+    const handleScroll = () => {
+      var scrollPosition = window.scrollY;
+      var scrollPositionElement = document.getElementById("scrollPosition");
+
+      // Update the content of the element with the current scroll position
+      if (scrollPositionElement) {
+        console.log("Current Scroll Position: " + scrollPosition + "px");
+      }
+    };
+
+    window.addEventListener("scroll", handleScroll);
+
+    // Clean up the event listener when the component unmounts
+    return () => {
+      window.removeEventListener("scroll", handleScroll);
+    };
+  }, []);
+
   useEffect(() => {
     AOS.init();
-  }, [])
+  }, []);
   return (
-    <div className="">
+    <div className="" id="scrollPosition">
     <div className="bg-[#90adcd] w-screen h-screen flex flex-row items-center justify-evenly">
-      <div className="flex flex-col items-start">
-      <span 
+      <div 
       data-aos="fade-up"
+      data-aos-offset="0"
+      data-aos-once="true"
+      className="flex flex-col items-start">
+      <span
       className=" text-[#0d3a5c] font-normal sm:text-4xl md:text-8xl">ClipTab</span>
       <span className="text-[#0d3a5c] self-end sm:text-xl md:text-lg">World Management</span>
       </div>

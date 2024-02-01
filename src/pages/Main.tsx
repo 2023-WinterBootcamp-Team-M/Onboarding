@@ -3,6 +3,7 @@ import { Link } from "react-router-dom";
 import Title from "../components/Title";
 import Intro from "../components/Intro";
 
+
 const MainPage = () => {
   return (
     <div>

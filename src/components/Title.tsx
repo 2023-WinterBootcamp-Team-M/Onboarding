@@ -31,7 +31,7 @@ const Title = () => {
 
   return (
     <div className="" id="scrollPosition">
-    <div className="bg-[#90adcd] w-screen h-screen flex flex-row items-center justify-evenly">
+    <div className="bg-white w-screen h-screen flex flex-row items-center justify-evenly">
       <div 
       data-aos="fade-down-right"
       data-aos-delay="500"
@@ -39,8 +39,8 @@ const Title = () => {
       data-aos-once="false"
       className="flex flex-col items-start">
       <span
-      className=" text-[#0d3a5c] font-normal sm:text-4xl md:text-8xl">ClipTab</span>
-      <span className="text-[#0d3a5c] self-end sm:text-xl md:text-lg">World Management</span>
+      className=" text-[FFFFFF] font-normal sm:text-4xl md:text-8xl">ClipTab</span>
+      <span className="text-[FFFFFF] self-end sm:text-xl md:text-lg">World Management</span>
       </div>
       <img 
       data-aos="fade-down-left"
@@ -51,31 +51,31 @@ const Title = () => {
       src="https://mteam.my.canva.site/onboarding-web/images/3dbc505e2279eade54f64358ae99f75b.svg" 
       alt="이미지1"/>
     </div>
-    <div className="bg-[#90adcd] w-screen h-screen flex flex-col items-center justify-evenly">
+    <div className="bg-[white] w-screen h-screen flex flex-col items-center justify-evenly">
       <p 
       data-aos="fade-up"
       data-aos-delay="50"
       data-aos-duration="1000"
-      className="text-[#0d3a5c] font-normal sm:text-2xl md:text-6xl">ClipTab 서비스</p>
+      className="text-[FFFFFF] font-bold sm:text-2xl md:text-6xl">About Cliptab </p>
       <div className="flex flex-row w-full items-center justify-center">
       <img 
-      data-aos="flip-left"
+      data-aos="fade-right"
       data-aos-delay="50"
       data-aos-duration="2000"
-      className="pr-20"
-      src="https://mteam.my.canva.site/onboarding-web/images/a80485755f79a42e17c1b21850936187.svg" 
-      alt="이미지2"/>
+      className="w-1/3 h-[70%] self-start pl-0"
+      src="https://i.ibb.co/mR6vRvf/clip-tab-2-removebg-preview.png" 
+      alt="Cliptab-logo"/>
       <div 
       data-aos="fade-left"
       data-aos-delay="50"
       data-aos-duration="1000"
-      className="w-1/4 self-start pl-20">
-      <p className="text-[#0d3a5c] font-bold text-xl">Cliptab</p>
-      <span className="text-[#0d3a5c] text-lg font-normal">GPT 요약을 통한 북마크에서 빠른 정보 및 URL에서 이미지 추출을 클립보드에 저장하는 기능입니다.</span>
+      className="w-[25%] h-[25%] self-start pl-6 mt-24">
+      <p className="text-[FFFFFF] font-bold text-2xl">Cliptab</p>
+      <span className="text-[FFFFFF] text-lg font-normal">저희 서비스는 사용자가 북마크를 통해 웹 페이지에 진입하기 전에 간단한 정보를 확인할 수 있도록 웹 페이지의 내용을 GPT로 요약하여 제공하는 기능을 하는 익스텐션입니다. 그 뿐만 아니라, 특정 URL에서 이미지를 추출하여 클립보드에 저장하고 활용하는 기능도 함께 제공합니다.</span>
       </div>
       </div>
     </div>
-    <div className="bg-[#F2CDF1] w-screen h-screen flex flex-col items-center justify-evenly">
+    <div className="bg-white w-screen h-screen flex flex-col items-center justify-evenly">
       <p 
       data-aos="fade-up"
       data-aos-delay="50"
@@ -85,7 +85,7 @@ const Title = () => {
       data-aos="fade-down"
       data-aos-delay="50"
       data-aos-duration="1000"
-      className="text-[#851a3d] text-4xl w-1/3 text-center">Cliptab은 다양한 요구에 맞춘 포괄적인 북마크 서비스 패키지를 제공합니다.</p>
+      className="text-[#851a3d] text-4xl w-1/3 text-center">Cliptab은 사람들의 다양한 요구에 따라 포괄적인 북마크 서비스 패키지를 제공합니다.</p>
       <div className="flex flex-row">
       <div
       data-aos="zoom-in"
@@ -107,86 +107,114 @@ const Title = () => {
       className="w-full h-1/2"
       src="https://mteam.my.canva.site/onboarding-web/images/8554d684835b3ba64f11d87a3d9cd6f7.svg" 
       alt="이미지4"/>
-        <p className="text-[#851a3d] text-center w-1/2 pt-4 text-lg">쉬운 이미지 생성.우리의 확장 프로그램은 간편하고 사용자 친화적입니다.</p>
+        <p className="text-[#851a3d] text-center w-1/2 pt-4 text-lg">쉬운 이미지 생성. 우리의 확장 프로그램은 간편하고 사용자 친화적입니다.</p>
       </div>
       </div>
     </div>
-    <div className="bg-[#B9C7D2] w-screen h-screen flex flex-col items-center justify-evenly">
+    <div className="bg-white w-screen h-screen flex flex-col items-center justify-evenly m-[-20%]">
       <p 
       data-aos="zoom-in"
       data-aos-delay="50"
       data-aos-duration="1000"
-      className="text-[#0D3A5C] text-6xl font-medium">Cliptab 언제 어디서나</p>
-      <p 
-      data-aos="zoom-in"
-      data-aos-delay="50"
-      data-aos-duration="1000"
-      className="text-[#0D3A5C] text-lg w-1/4 text-center">Cliptab 서비스는 확장 기능을 활용하여 유연하게 작동하며 필요할 때 빠르게 액세스할 수 있도록 해줍니다.</p>
+      className="text-[FFFFFF] text-6xl font-bold">About BookmarkPage</p>
+      </div>
+      <div className="p-2 m-[20%] mt-[-20%]">
       <img 
-      data-aos="zoom-in"
-      data-aos-delay="50"
-      data-aos-duration="1000"
-      className="h-1/2"
-      src="https://mteam.my.canva.site/onboarding-web/images/c643a70ca5befc44bd1d3bf8720ab2cb.svg" 
-      alt="이미지5"/>
-    </div>
-    <div className="bg-white w-screen h-screen flex flex-row items-center justify-evenly">
-      <p 
       data-aos="fade-right"
       data-aos-delay="50"
       data-aos-duration="1000"
-      className="text-4xl text-[#506B5D] w-1/3">Cliptab을 통해 GPT 기술을 활용한 스마트 북마킹과 URL 이미지 클립보드를 발견하세요.</p>
-      <img 
+      className="h-[18%] w-[30%]"
+      src="https://i.ibb.co/XDbygFc/2024-01-31-12-44-05.png" 
+      alt="북마크 생성"/>
+      <p 
       data-aos="fade-left"
       data-aos-delay="50"
       data-aos-duration="1000"
-      src="https://mteam.my.canva.site/onboarding-web/images/854cdad2f7a848f38ee51e774a498f19.svg" alt="이미지6"/>
-    </div>
-    <div className="bg-[#A0B291] w-screen h-screen flex flex-row items-center justify-evenly">
-      <div 
+      className="text-[FFFFFF] text-base w-[40%] text-center mt-[-15%] m-80">사용자마다 폴더를 생성해 북마크를 직접 관리할 수 있고 또한, 북마크 자동분류 기능을 통해 북마크를 관리할 수 있습니다. 더불어 요약된 웹 사이트 정보를 받아보실 수 있습니다.</p>
+      <div className="bg-white w-screen h-screen flex flex-col items-center justify-evenly m-[-20%]">
+     </div>
+     <div className="p-2 mr-[62%] mt-[-90%]">
+      <img 
       data-aos="fade-right"
       data-aos-delay="50"
       data-aos-duration="1000"
-      className="flex flex-row w-1/4 flex-wrap">
-      <img 
-      className="w-1/2 pr-2"
-      src="https://mteam.my.canva.site/onboarding-web/images/1affd884274594118668c98edae5a5c3.svg" alt="이미지7"/>
-      <img 
-      className="w-1/2 pl-2"
-      src="https://mteam.my.canva.site/onboarding-web/images/71c1e8cda2aa1113773b51815634b4dd.svg" alt="이미지8"/>
-      <img 
-      className="w-full pt-4"
-      src="https://mteam.my.canva.site/onboarding-web/images/c2e5fa8d5a2a022625d71d5f86f04617.svg" alt="이미지9"/>
+      className="h-[18%] w-[81%]"
+      src="https://i.ibb.co/v4nYmMq/2024-01-30-11-28-52.png" 
+      alt="요약본 처리"/>
       </div>
-      <div 
+      <p 
       data-aos="fade-left"
       data-aos-delay="50"
       data-aos-duration="1000"
-      className="flex flex-col w-1/3">
-      <p className="text-white text-4xl pb-6">당신의 시간을 효율적으로 활용하세요.</p>
-      <p className="text-white text-md w-[80%]">Cliptab 서비스를 이용하면 언제 어디서나 손쉽게 관리할 수 있습니다.</p>
-      <p className="text-white text-md w-[80%]">필요한 순간에 빠르게 모든 작업을 수행하세요.</p>
+      className="text-[FFFFFF] text-base w-[40%] text-center mt-[-15%] m-80">직접 웹 사이트를 들어가지 않아도 사이트 내 정보를 확인하실 수 있습니다. 요약 정보는 사용자 설정마다 짧은 요약본이나 긴 요약본으로 받아보실 수 있습니다.</p>
+     </div>
+     <div className="bg-white w-screen h-screen flex flex-col items-center justify-evenly m-[-35%]">
+      <p 
+      data-aos="zoom-in"
+      data-aos-delay="50"
+      data-aos-duration="1000"
+      className="text-[FFFFFF] text-6xl font-bold ml-[30%] mt-[-20%]">About ClipboardPage</p>
       </div>
+      <div className="mt-1/2 p-36 m-[10%]">
+      <img 
+      data-aos="fade-right"
+      data-aos-delay="50"
+      data-aos-duration="1000"
+      className="h-[20%] w-[30%] mt-[-22%]"
+      src="https://i.ibb.co/vLy7jQL/2024-01-31-2-50-46.png" 
+      alt="URL 입력"/>
+      <p 
+      data-aos="fade-left"
+      data-aos-delay="50"
+      data-aos-duration="1000"
+      className="text-[FFFFFF] text-base w-[36%] text-center mt-[-10%] m-80">선택한 페이지 URL 안에 있는 이미지 URL을 입력하면 웹 스크래핑을 통해 관련 이미지를 받아보실 수 있습니다.   </p>
       </div>
-      <div className="bg-[#545454] flex flex-col h-screen w-screen items-center justify-evenly">
-        <div 
-        data-aos="flip-left"
-        data-aos-delay="50"
-        data-aos-duration="1000"
-        className="bg-white w-1/2 h-1/2 text-center">이미지</div>
+      <div className="mt-[-43%] p-28 m-[12%]">
+      <img 
+      data-aos="fade-right"
+      data-aos-delay="50"
+      data-aos-duration="1000"
+      className="h-[20%] w-[30%]"
+      src="https://i.ibb.co/FhQ1HQF/2024-01-31-2-49-13.png" 
+      alt="이미지 추출"/>
+      <p 
+      data-aos="fade-left"
+      data-aos-delay="50"
+      data-aos-duration="1000"
+      className="text-[FFFFFF] text-base w-[35%] text-center mt-[-28%] m-[36%]">클립보드에 관련 이미지가 생성되고 생성된 이미지는 저장 또는 삭제할 수 있습니다. 또한 DragNDrop 형식으로 이미지를 관리할 수 있으며 MarkDown 언어를 지원하는 노션이나 이미지가 필요한 어느 곳에서든지 바로 사용하실 수 있습니다.</p>
+      </div>
+      <div className="bg-white flex flex-col h-screen w-screen items-center justify-evenly mt-[-20%]">
         <p 
         data-aos="fade-up"
         data-aos-delay="50"
         data-aos-duration="1000"
-        className="text-white text-4xl">세계적인 관리 서비스, Cliptab</p>
-        <button 
+        className="text-black text-6xl font-bold">세계적인 관리 서비스, Cliptab</p>
+        <p 
+        data-aos="fade-up"
+        data-aos-delay="50"
+        data-aos-duration="1000"
+        className="text-black text-5xl font-medium">지금 시작해보세요</p>
+        <button
         data-aos="zoom-in-up"
         data-aos-delay="50"
         data-aos-duration="1000"
-        className="bg-[#90ADCD] w-[20%] h-[6%] text-black rounded-md">START NOW</button>
+        className="bg-[#90ADCD] w-[20%] h-[6%] text-black rounded-md animate-bounce"
+        onClick={() => {
+          const firstPageElement = document.getElementById("scrollPosition");
+          if (firstPageElement) {
+            window.scrollTo({
+              top: firstPageElement.offsetTop,
+              behavior: "smooth",
+            });
+          }
+        }}
+      >
+        START NOW
+      </button>
       </div>
     </div>
   );
 };
 
 export default Title;
+

@@ -62,16 +62,16 @@ const Title = () => {
       data-aos="fade-right"
       data-aos-delay="50"
       data-aos-duration="2000"
-      className="w-1/3 h-[70%] self-start pl-0"
+      className="w-1/3 h-full pl-0"
       src="https://i.ibb.co/mR6vRvf/clip-tab-2-removebg-preview.png" 
       alt="Cliptab-logo"/>
       <div 
       data-aos="fade-left"
       data-aos-delay="50"
       data-aos-duration="1000"
-      className="w-[25%] h-[25%] self-start pl-6 mt-24">
+      className="flex flex-col w-[25%] h-full justify-center">
       <p className="text-[FFFFFF] font-bold text-2xl">Cliptab</p>
-      <span className="text-[FFFFFF] text-lg font-normal">저희 서비스는 사용자가 북마크를 통해 웹 페이지에 진입하기 전에 간단한 정보를 확인할 수 있도록 웹 페이지의 내용을 GPT로 요약하여 제공하는 기능을 하는 익스텐션입니다. 그 뿐만 아니라, 특정 URL에서 이미지를 추출하여 클립보드에 저장하고 활용하는 기능도 함께 제공합니다.</span>
+      <span className="text-[FFFFFF] text-lg font-norma">저희 서비스는 사용자가 북마크를 통해 웹 페이지에 진입하기 전에 간단한 정보를 확인할 수 있도록 웹 페이지의 내용을 GPT로 요약하여 제공하는 기능을 하는 익스텐션입니다. 그 뿐만 아니라, 특정 URL에서 이미지를 추출하여 클립보드에 저장하고 활용하는 기능도 함께 제공합니다.</span>
       </div>
       </div>
     </div>
